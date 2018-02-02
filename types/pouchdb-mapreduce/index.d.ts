@@ -77,7 +77,7 @@ declare namespace PouchDB {
             rows: Array<{
                 id: any;
                 key: any;
-                value: any;
+                value: Content;
                 doc?: Core.ExistingDocument<Content & Core.AllDocsMeta>;
             }>;
         }
